@@ -1,6 +1,6 @@
 export const Navbar = () => {
     return(
-        <nav className="font-sans flex flex-row flex-wrap justify-between items-center sticky z-10 text-xl pt-2">
+        <nav className="font-sans flex flex-row flex-wrap justify-between items-center sticky z-10 text-xl pt-2 ">
             <div>
                 Logo placeholder
             </div>

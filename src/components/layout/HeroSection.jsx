@@ -70,13 +70,18 @@ export const HeroSection = () => {
     return (
         <section className='relative w-full min-h-screen'>
             <canvas id="space" className='absolute top-0 left-0 w-full h-full'></canvas>
-            <div className="content">
-                <h1>
-                    Hello there!
-                    <span>I'm Romichis</span>
-                </h1>
-                <h2>
-                    A Frontend Developer.
+            <div className="content absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
+                <div className='light font-star-jedi flex flex-col'>
+                    <p className='text-2xl shadow-yellow'>hello there!</p>
+                    <h1 className='text-5xl shadow-yellow flex gap-2 items-center'>
+                        i'm 
+                        <span className='text-yellow-500 shadow-white'>
+                            RomiconS
+                        </span>
+                    </h1>
+                </div>
+                <h2 className='p-2 text-xl'>
+                    An outerspace Frontend Developer.
                 </h2>
             </div>
         </section>

@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,16 +9,19 @@ export default {
     extend: {
       colors: {
         light:  "#fdfefe",
-        dark: "#17202a",
+        dark: "#000000",
         primary: "#00FF00",
         secondary: "#0000FF",
+        terciary: "",
         accent: "#FF0000"
       },
       fontFamily: {
-        sans: ['"Bebas Neue"'],
-        serif: ['"Roboto"'],
+        sans: ['Bebas Neue', 'sans'],
+        serif: ['Roboto', 'sans-serif'],
+        'star-jedi': ['StarJedi', 'sans-serif'],
       },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('tailwindcss-textshadow')]
+};

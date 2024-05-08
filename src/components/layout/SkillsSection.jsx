@@ -1,7 +1,7 @@
 export const SkillsSection = () => {
     return(
         <section>
-            <h2>Skills</h2>
+            <h2 className="text-center text-4xl font-sans shadow-yellow">Tooling</h2>
             <p>React</p>
             <p>JavaScript</p>
             <p>Sass</p>
