@@ -16,12 +16,11 @@ module.exports = {
         accent: "#FF0000"
       },
       fontFamily: {
-        sans: ['Bebas Neue', 'sans'],
-        serif: ['Roboto', 'sans-serif'],
         'star-jedi': ['StarJedi', 'sans-serif'],
+      },
+      screens: {
+        tablet: "550px",
       },
     },
   },
-  plugins: [
-    require('tailwindcss-textshadow')]
 };

@@ -1,5 +1,5 @@
 import { MainContainer } from './components/layout/MainContainer'
-import { Navbar } from './components/layout/Navbar'
+import { Navbar } from './components/layout/Navbar/Navbar'
 import { HeroSection } from './components/layout/HeroSection'
 import { AboutMeSection } from './components/layout/AboutMeSection'
 import { SkillsSection } from './components/layout/SkillsSection'

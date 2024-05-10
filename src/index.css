@@ -1,3 +1,6 @@
+@import '@fontsource/roboto';
+@import '@fontsource/bebas-neue';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,6 +18,11 @@
 
 body, #root {
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-titles {
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .shadow-yellow {
@@ -23,4 +31,30 @@ body, #root {
 
 .shadow-white {
   text-shadow: -1px 2px 2px #fdfefe;
+}
+
+.trapezoid {
+  clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
+}
+
+@keyframes lightning {
+  from {
+    color: #666a75;
+  }
+
+  to {
+    color: #fff;
+  }
+}
+
+.card-footer p:first-child {
+  animation: lightning 1s linear infinite;
+}
+
+.card-footer p:nth-child(2) {
+  animation: lightning 1.5s linear infinite;
+}
+
+.card-footer p:last-child {
+  animation: lightning 2s linear infinite;
 }
