@@ -39,22 +39,65 @@ body, #root {
 
 @keyframes lightning {
   from {
-    color: #666a75;
+    color: #FFD700;
   }
 
   to {
-    color: #fff;
+    color: #DAA520;
   }
 }
 
-.card-footer p:first-child {
-  animation: lightning 1s linear infinite;
+@keyframes lightning {
+  0% {
+    color: #FFD700; 
+  }
+
+  50% {
+    color: #DAA520;
+  }
+
+  100% {
+    color: #FFD700;
+  }
 }
 
-.card-footer p:nth-child(2) {
+@keyframes lightning-slow {
+  0% {
+    color: #FFD700; 
+  }
+
+  50% {
+    color: #DAA520; 
+  }
+
+  100% {
+    color: #FFD700;
+  }
+}
+
+@keyframes lightning-slower {
+  0% {
+    color: #FFD700; 
+  }
+
+  50% {
+    color: #DAA520;
+  }
+
+  100% {
+    color: #FFD700;
+  }
+}
+
+
+.animate-lightning {
   animation: lightning 1.5s linear infinite;
 }
 
-.card-footer p:last-child {
-  animation: lightning 2s linear infinite;
+.animate-lightning-slow {
+  animation: lightning-slow 2s linear infinite;
+}
+
+.animate-lightning-slower {
+  animation: lightning-slower 2.5s linear infinite;
 }

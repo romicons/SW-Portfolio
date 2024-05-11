@@ -80,7 +80,7 @@ export const HeroSection = () => {
                         </span>
                     </h1>
                 </div>
-                <h2 className='p-2 text-xl'>
+                <h2 className='p-2 text-xl font-titles'>
                     An outerspace Frontend Developer.
                 </h2>
             </div>
