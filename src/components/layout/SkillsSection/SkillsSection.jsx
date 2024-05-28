@@ -2,7 +2,7 @@ import { SkillCard } from "./SkillCard"
 
 export const SkillsSection = () => {
     return(
-        <section className="flex justify-center flex-col">
+        <section className="flex justify-center flex-col p-4">
             <h2 className="text-center text-4xl shadow-yellow font-titles pb-4">Tooling</h2>
             <div className="grid tablet:grid-rows-3 grid-flow-col grid-rows-5  tablet:grid-flow-col gap-8 pt-4 justify-center">
                 <SkillCard tittle="Bootstrap" icon="devicon-bootstrap-plain" onHover='hover:text-purple-800'/>

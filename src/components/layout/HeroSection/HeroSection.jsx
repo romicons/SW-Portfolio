@@ -1,3 +1,5 @@
+import "./heroSection.css"
+
 import React, { useEffect } from 'react';
 
 export const HeroSection = () => {
@@ -68,19 +70,19 @@ export const HeroSection = () => {
     }, []);
 
     return (
-        <section className='relative w-full min-h-screen'>
-            <canvas id="space" className='absolute top-0 left-0 w-full h-full'></canvas>
-            <div className="content absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-                <div className='light font-star-jedi flex flex-col'>
-                    <p className='text-2xl shadow-yellow'>hello there!</p>
-                    <h1 className='text-5xl shadow-yellow flex gap-2 items-center'>
+        <section className='hero__container'>
+            <canvas id="space"></canvas>
+            <div className="hero__container__titles">
+                <div className='font-star-jedi'>
+                    <p className='shadow-yellow'>hello there!</p>
+                    <h1 className='shadow-yellow'>
                         i'm 
-                        <span className='text-yellow-500 shadow-white'>
+                        <span className='shadow-white'>
                             RomiconS
                         </span>
                     </h1>
                 </div>
-                <h2 className='p-2 text-xl font-titles'>
+                <h2 className='font-titles'>
                     An outerspace Frontend Developer.
                 </h2>
             </div>
