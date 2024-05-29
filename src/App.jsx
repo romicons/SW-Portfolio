@@ -1,8 +1,8 @@
 import { MainContainer } from './components/layout/MainContainer/MainContainer'
 import { Navbar } from './components/layout/Navbar/Navbar'
 import { HeroSection } from './components/layout/HeroSection/HeroSection'
-import { AboutMeSection } from './components/layout/AboutMeSection'
-import { SkillsSection } from './components/layout/SkillsSection/SkillsSection'
+import { AboutMeSection } from './components/layout/AboutMeSection/AboutMeSection'
+import { SkillsSection } from './components/layout/AboutMeSection/SkillsSection'
 import { ProjectsSection } from './components/layout/ProjectsSection/ProjectsSection'
 import { ContactSection } from './components/layout/ContactSection'
 import { Footer } from './components/layout/Footer'
@@ -16,7 +16,6 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <AboutMeSection/>
-      <SkillsSection/>
       <ProjectsSection/>
       <ContactSection/>
       <Footer/>

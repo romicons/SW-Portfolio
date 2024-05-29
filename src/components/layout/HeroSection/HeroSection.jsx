@@ -73,7 +73,7 @@ export const HeroSection = () => {
         <section className='hero__container'>
             <canvas id="space"></canvas>
             <div className="hero__container__titles">
-                <div className='font-star-jedi'>
+                <div>
                     <p className='shadow-yellow'>hello there!</p>
                     <h1 className='shadow-yellow'>
                         i'm 

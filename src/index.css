@@ -8,7 +8,7 @@
 
 :root {
   --clr-light: #fdfefe;
-  --clr-dark: #17202a;
+  --clr-dark: #000000; /*#17202a*/
   --clr-primary: #eab308;
   --clr-secondary: #0000FF;
   --clr-tertiary: #00FF00;
@@ -25,14 +25,7 @@ body, #root {
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: var(--clr-light);
-}
-
-.font-titles {
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-.font-star-jedi {
-  font-family: 'StarJedi', sans-serif;
+  background-color: var(--clr-dark);
 }
 
 .shadow-yellow {
@@ -41,76 +34,4 @@ body, #root {
 
 .shadow-white {
   text-shadow: -1px 2px 2px #fdfefe;
-}
-
-.trapezoid {
-  clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
-}
-
-@keyframes lightning {
-  from {
-    color: #FFD700;
-  }
-
-  to {
-    color: #DAA520;
-  }
-}
-
-@keyframes lightning {
-  0% {
-    color: #FFD700; 
-  }
-
-  50% {
-    color: #DAA520;
-  }
-
-  100% {
-    color: #FFD700;
-  }
-}
-
-@keyframes lightning-slow {
-  0% {
-    color: #FFD700; 
-  }
-
-  50% {
-    color: #DAA520; 
-  }
-
-  100% {
-    color: #FFD700;
-  }
-}
-
-@keyframes lightning-slower {
-  0% {
-    color: #FFD700; 
-  }
-
-  50% {
-    color: #DAA520;
-  }
-
-  100% {
-    color: #FFD700;
-  }
-}
-
-.animate-lightning {
-  animation: lightning 1.5s linear infinite;
-}
-
-.animate-lightning-slow {
-  animation: lightning-slow 2s linear infinite;
-}
-
-.animate-lightning-slower {
-  animation: lightning-slower 2.5s linear infinite;
-}
-
-.calc-width {
-  width:calc(100% - 100px);
 }
