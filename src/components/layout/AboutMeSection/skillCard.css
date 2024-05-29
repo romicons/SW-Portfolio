@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0.625rem;
+    padding-block: 0.5rem;
   }
 
   .skill__card__technology i {

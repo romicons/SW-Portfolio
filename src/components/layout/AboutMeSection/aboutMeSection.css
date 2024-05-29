@@ -23,8 +23,11 @@
     width: 100%;
 }
 
-.section__col p {
+.about__me__description p {
     text-align: justify;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-block: 0.5rem;
 }
 
 @media screen and (min-width:1250px) {
