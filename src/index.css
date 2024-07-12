@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import '@fontsource/roboto';
+@import '@fontsource/bebas-neue';
+
+@font-face {
+  font-family: 'StarJedi';
+  src: url('/src/assets/fonts/Starjedi.ttf') format('truetype');
+}
+
+:root {
+  --clr-light: #fdfefe;
+  --clr-dark: #000000; /*#17202a*/
+  --clr-primary: #eab308;
+  --clr-secondary: #0000FF;
+  --clr-tertiary: #00FF00;
+  --clr-accent: #FF0000;
+}
 
 * {
   margin: 0;
@@ -10,4 +23,15 @@
 
 body, #root {
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: var(--clr-light);
+  background-color: var(--clr-dark);
+}
+
+.shadow-yellow {
+  text-shadow: -1px 2px 2px #FFD700;
+}
+
+.shadow-white {
+  text-shadow: -1px 2px 2px #fdfefe;
 }

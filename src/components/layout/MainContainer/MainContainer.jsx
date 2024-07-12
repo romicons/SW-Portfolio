@@ -1,6 +1,8 @@
+import "./mainContainer.css";
+
 export const MainContainer = ({children}) => {
     return(
-        <main className="bg-dark text-light flex flex-col justify-between">
+        <main className="main__container">
             {children}
         </main>
     )

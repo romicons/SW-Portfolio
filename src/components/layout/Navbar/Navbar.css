@@ -1,0 +1,53 @@
+#nav-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -3em;
+}
+
+.toggle-icon {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: -2.2em auto 0 0.8em;
+    transition: margin 600ms;
+}
+
+.toggle-icon .bar {
+    margin: 0.9em;
+    border-right: 2.8em solid #fff;
+    border-left: 0.6em solid #d6d6d6;
+    transition: transform 600ms, margin 600ms, border-right-color 600ms, box-shadow 600ms;
+}
+
+.toggle-icon .bar:nth-of-type(2) {
+    transform: rotate(-180deg);
+}
+
+.pushed .toggle-icon {
+    margin: -3.2em 0 0 0.7em;
+}
+
+.pushed .bar:nth-of-type(1) {
+    opacity: 0;
+}
+
+.pushed .bar:nth-of-type(2) {
+    margin-left: 1.4em;
+    transform: rotate(-137deg) translateY(-1.5em);
+}
+
+.pushed .bar:nth-of-type(3) {
+    margin-left: 0.5em;
+    transform: rotate(-42deg);
+}
+
+.pushed .toggle-icon:hover .bar:nth-of-type(2) {
+    border-right-color: #e9b8b9;
+    box-shadow: 0.4em 0 0.6em 0.1em rgba(205, 40, 44, 0.75);
+}
+
+.pushed .toggle-icon:hover .bar:nth-of-type(3) {
+    border-right-color: #ddf1da;
+    box-shadow: 0.4em 0 0.6em 0.1em rgba(83, 228, 68, 0.65);
+}
