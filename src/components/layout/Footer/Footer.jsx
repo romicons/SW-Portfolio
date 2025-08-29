@@ -1,3 +1,5 @@
+import "./footerCss.css"
+
 export const Footer = () => {
     return(
         <footer className="flex py-2 justify-center items-center shadow-lg flex-col gap-2">

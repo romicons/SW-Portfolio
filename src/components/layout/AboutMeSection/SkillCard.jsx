@@ -1,32 +1,27 @@
 import "./skillCard.css"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-
-export const SkillCard = ({tittle, icon, hoverColor}) => {
+export const SkillCard = ({label, icon, hoverColor}) => {
     return(
-        <div className="file__card__container">
-            <div className="skill__card" style={{'--hover-color': hoverColor}}>
-                <div className="skill__card__shapes">
-                    <div className="trapezoid"></div>
-                    <div className="charger">
-                        <div className='dot'></div>
-                    </div>
-                </div>
-                <div className="skill__card__technology">
-                    <div>
-                        <i className={icon}></i>
-                    </div>
-                </div>
-                <div className="skill__card__technology__name">
-                    <h3>{tittle}</h3>
-                </div>
-            </div>
-            <div className="skill__card__footer">
-                <FontAwesomeIcon icon={faAngleRight} className="animate-lightning" />
-                <FontAwesomeIcon icon={faAngleRight} className="animate-lightning-slow" />
-                <FontAwesomeIcon icon={faAngleRight} className="animate-lightning-slower" />
-            </div>
-        </div>
-    )
-}
+     <div className="hexagon-item" style={{'--hover-color': hoverColor}}>
+                                        <div className="hex-item">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                        <div className="hex-item">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                        <a  className="hex-content">
+                                            <span className="hex-content-inner">
+                                                <span className="icon">
+                                                       <i className={icon} ></i>
+                                                </span>
+                                                <span className="title">{label}</span>
+                                            </span>
+                                            <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                        </a>
+                                    </div>
+  );
+};

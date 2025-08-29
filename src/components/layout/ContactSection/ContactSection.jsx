@@ -6,4 +6,4 @@ export const ContactSection = () => {
             <p>Here goes the form</p>
         </section>
     )
-}
+};

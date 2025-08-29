@@ -2,10 +2,9 @@ import { MainContainer } from './components/layout/MainContainer/MainContainer'
 import { Navbar } from './components/layout/Navbar/Navbar'
 import { HeroSection } from './components/layout/HeroSection/HeroSection'
 import { AboutMeSection } from './components/layout/AboutMeSection/AboutMeSection'
-import { SkillsSection } from './components/layout/AboutMeSection/SkillsSection'
 import { ProjectsSection } from './components/layout/ProjectsSection/ProjectsSection'
-import { ContactSection } from './components/layout/ContactSection'
-import { Footer } from './components/layout/Footer'
+import { ContactSection } from './components/layout/ContactSection/ContactSection'
+import { Footer } from './components/layout/Footer/Footer'
 
 import './components/layout/Navbar/Navbar.css'
 
