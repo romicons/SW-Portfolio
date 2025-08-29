@@ -1,15 +1,17 @@
-.skills__cards__container {
-    display: grid;
-    gap: 3rem;
-    padding-top: 3rem;
-    justify-content: center;
-    grid-template-rows: repeat(5, minmax(0, 1fr));
-    grid-auto-flow: column;
+.hexagon-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-@media screen and (min-width: 1200px) {
-    .skills__cards__container {
-        padding-top: 1.5rem;
-        grid-template-rows: repeat(3, minmax(0, 1fr));
-    }
-  }
+.hex-row {
+  display: flex;
+  justify-content: center; 
+  gap: 0; 
+}
+
+.hex-row + .hex-row {
+  margin-top: -25px;
+}
+

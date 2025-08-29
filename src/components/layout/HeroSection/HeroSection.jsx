@@ -1,6 +1,6 @@
 import "./heroSection.css"
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 export const HeroSection = () => {
     useEffect(() => {
@@ -74,10 +74,10 @@ export const HeroSection = () => {
             <canvas id="space"></canvas>
             <div className="hero__container__titles">
                 <div>
-                    <p className='shadow-yellow'>hello there!</p>
-                    <h1 className='shadow-yellow'>
+                    <p className='shadow__yellow'>hello there!</p>
+                    <h1 className='shadow__yellow'>
                         i'm 
-                        <span className='shadow-white'>
+                        <span className='shadow__white'>
                             RomiconS
                         </span>
                     </h1>
