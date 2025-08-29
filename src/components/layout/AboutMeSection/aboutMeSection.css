@@ -53,11 +53,3 @@
 .highlighted {
     color: var(--clr-primary);
 }
-
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.05rem;
-}
-
-.highlighted {
-    color: var(--clr-primary);
-}
