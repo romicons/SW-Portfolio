@@ -1,5 +1,6 @@
 import { SkillCard } from "./SkillCard"
 import "./skillsSection.css"
+import { SkillCard } from "./SkillCard"
 
 export const SkillsSection = () => {
   return (
@@ -33,3 +34,4 @@ export const SkillsSection = () => {
 
   )
 }
+

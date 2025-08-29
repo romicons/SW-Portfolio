@@ -12,23 +12,6 @@
 }
 
 .hex-row + .hex-row {
-  margin-top: -25px; /* ajusta este valor según el tamaño de tus hexágonos */
+  margin-top: -25px;
 }
 
-@media screen and (max-width: 768px) {
-  .hex-row {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 15px; /* separación vertical */
-  }
-
-  .hex-row.single {
-    justify-content: center;
-  }
-
-  .hex-row .hexagon-item {
-    flex: 1 1 calc(50% - 15px); /* máximo 2 por fila */
-    max-width: 150px;
-  }
-}
